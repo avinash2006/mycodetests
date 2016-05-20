@@ -1,0 +1,57 @@
+*{
+	text-align: center;
+	font-family: cursive;
+}
+
+section{
+	box-sizing: border-box;
+	border: 1px solid black;
+	float: left;
+	margin: 1%;
+	background-color: grey;
+
+}
+section > div{
+	float: right;
+	width: 20%;
+	height: 20px;
+	border: 1px solid black;
+	border-right: 0px;
+	border-top: 0px;
+	padding-top:2px;
+	padding-bottom: 2px;
+}
+
+div.chicken{
+	background-color: pink;
+}
+div.beef{
+	background-color: red;
+}
+div.soup{
+	background-color: goldenrod;
+}
+section > p{
+	clear: right;
+	padding: 5px;
+}
+
+@media (min-width: 992px){
+	.col_lg_4{
+		width: 31%;
+		margin-left: 1.2%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.col_md_6{
+		width: 42.5%;
+		margin-left: 5%;
+	}
+	.col_md_12{
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
+
