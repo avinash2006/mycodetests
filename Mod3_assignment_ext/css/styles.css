@@ -1,0 +1,78 @@
+*{
+	font-family: cursive;
+}
+
+/*Navigation bar*/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -25px;
+}
+
+#nav-list {
+  margin-top: 10px;
+  background-color: #E7E7E7;
+}
+
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+
+#nav-list a span:hover {
+  background-color: #000;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-brand{
+	font-size: 2em;
+	padding-top: 20%;
+}
+/*End of Navigation bar*/
+
+/*Main Content*/
+#menu-item-description{
+	background-color: grey;
+	border: 5px solid black;
+	height: 700px;
+	margin-bottom: 15px;
+
+}
+
+#menu-item-description #title-chicken,
+#menu-item-description #title-beef,
+#menu-item-description #title-sushi{
+	font-style: bold;
+	margin-bottom: 10px;
+}
+
+#menu-item-description #description{
+	padding-left: 10px;
+}
+
+#menu-item-description #description a{
+	color: #000;
+	font-style: bold;
+}
+/*end of main container*/
+
+/*Media Query*/
+/*for small screens*/
+@media (max-width: 767px){
+	.navbar-brand{
+	font-size: 2em;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	}
+
+	#menu-item-description{
+		width: 100%;
+		margin: 0 auto 15px;
+	}
+}
